@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://dvewtmm6d837k"]
+
+[ext_resource type="Script" uid="uid://d3xgmdujcke3m" path="res://HUD.gd" id="1_37p78"]
+
+[node name="HUD" type="CanvasLayer" unique_id=1856722869]
+script = ExtResource("1_37p78")
+
+[node name="ScoreLabel" type="Label" parent="." unique_id=484157053]
+offset_left = 224.0
+offset_top = 4.0
+offset_right = 264.0
+offset_bottom = 27.0
+
+[node name="TimeLabel" type="Label" parent="." unique_id=83447937]
+offset_left = 630.0
+offset_top = 2.0
+offset_right = 670.0
+offset_bottom = 25.0
+
+[node name="MessageLabel" type="Label" parent="." unique_id=1417532331]
+offset_left = 1050.0
+offset_top = 4.0
+offset_right = 1090.0
+offset_bottom = 27.0
