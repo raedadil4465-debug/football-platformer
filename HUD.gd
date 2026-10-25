@@ -26,4 +26,4 @@ func _on_round_won() -> void:
  
  
 func _on_round_lost() -> void:
-	message_label.text = "Lost the ball!"
+	message_label.text = "gg!"
